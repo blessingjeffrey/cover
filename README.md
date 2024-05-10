@@ -35,117 +35,86 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
-
 <!DOCTYPE html>
 <html>
- <head>
- <title></title>
- <link href="{% static 'css/bookfrontcover.css' %}" rel="stylesheet">
- </head>
- <body>
- <div id="content">
+    <head>
+        <title>
+            Front cover page
+        </title>
+        <style>
+            .bookpage{
+                height:680px;
+                width:600px;
+                margin-left:35%;
+                background-image: url(White\ and\ Blue\ Geometric\ Business\ Book\ Cover.png);
+                padding:10px;
+                background-size: cover;
+            }
+            .hr1{
+                width:200px
 
- </div>
- </body>
+            }
+            .booktitle{
+                margin-top: 30px;
+                color:black(255, 255, 255);
+                padding:5px;
+                font-size: xx-large;
+            }
+            .subtitle{
+                color:black;
+                font-size: large;
+            }
+            
+            .mypic{
+                position: relative;
+                top:90px;
+                left:470px;
+                height: 100px;
+                width: 70px;
+            }
+            .hr2{
+                padding-top: 130px;
+            
+            }
+            *{
+                color:black;
+            }
+            .ed{
+                position:relative;
+                top: 80px;
+            }
+            .author{
+                font-family: 'Trebuchet MS';
+                font-size: large;
+            }
+            .pb{
+                position: relative;
+                left:420px;
+                top:-50px;
+                font-size: x-large;
+            }
+        </style>
+        <body>
+            <div class="bookpage">
+            <div style="color:black">INSIGHT </div>
+            <div class="hr1"><hr ></div>
+            <div class="booktitle"><h1>Indroduction of Web Development</h1></div>
+            <div class="subtitle">From Novice to Professional<br>Packed with essential practical techniques</div>
+            <div class="mypic"><img src="WhatsApp Image 2024-05-10 at 08.48.15_9d0c2f0d.jpg" height="140px" ></div>
+            <div class="ed">SPECIAL EDITION</div>
+            <div class="hr2"><hr ></div>
+            <div class="author"> Blessing jeffrey YL</div>
+            <div class="pb"> <h2>SEC</h2></div>
+        </div>
+        </body>
+    </head>
 </html>
-<style>
-body {background: #888; height: 100%;}
-span {color: #F57D11;}
-.book {
-display: block;
-position: absolute;
-height: 850px;
-width: 700px;
-overflow: hidden;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-background: #393939;
-}
-.cover-design {
-display: block;
-position: absolute;
-height: 600px;
-width: 600px;
-top: 45%;
-left: 50%;
--webkit-transform: translate(-50%,-50%);
--ms-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-font-family: sans-serif;
-color: #EEE;
-}
-.diamond-frame {
-position: absolute;
-height: 325px;
-width: 325px;
-top: 64.8%;
-left: 14.5%;
--webkit-transform: rotate(45deg) translate(-50%,-50%);
--ms-transform: rotate(45deg) translate(-50%,-50%);
-transform: rotate(45deg) translate(-50%,-50%);
-border-left: 50px solid #AFA;
-border-right: 50px solid #CCC;
-border-top: 50px solid #FF7300;
-border-bottom: 50px solid #0BF;
-}
-.box {
-position: absolute;
-height: 50px;
-width: 52px;
-z-index: 1000;
-}
-.a {background: #840; top: -50px; left: -51px;}
-.b {background: #b40; top: -50px; right: -51px;}
-.c {background: #077; bottom: -50px; right: -51px;}
-.d {background: #0A9; bottom: -50px; left: -51px;}
-.book-title {
-position: absolute;
-width: 100%;
-font-size: 57px;
-top: 45%;
-text-align: center;
-}
-.book-subtitle {
-position: absolute;
-width: 100%;
-font-size: 24px;
-top: 55%;
-text-align: center;
-}
-.book-author {
-display: block;
-position: absolute;
-width: 100%;
-top: 90%;
-text-transform: uppercase;
-color: #777;
-font-size: 22px;
-font-family: sans-serif;
-letter-spacing: 2px;
-text-align: center;
-}
-</style>
-<div class="book">
-<div class="cover-design">
-<div class="diamond-frame">
-<div class="box a"></div>
-<div class="box b"></div>
-<div class="box c"></div>
-<div class="box d"></div>
-</div>
-<div class="book-Title"> HTML<span>&</span>CSS </div>
-<p class="book-subtitle">design and build websites</p>
-</div>
-<div class="book-author">Jon Duckett</div>
-</div>
+
 ```
 
 ## OUTPUT:
 
-![Alt text](<Screenshot 2024-04-29 222305.png>)
+![Alt text](<BJ/Screenshot 2024-05-10 091031.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
